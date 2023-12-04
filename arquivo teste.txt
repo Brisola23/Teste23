@@ -1,4 +1,0 @@
-<<<<<<< HEAD
-=======
-Editando o arquivo para testes no GIT 
->>>>>>> feature
