@@ -1,0 +1,24 @@
+on:
+ push:
+   branches: ["developer"]
+      
+jobs:
+  Upload-hml:
+    runs-on: ubuntu-latest
+
+    steps:   
+    - uses: actions/checkout@v3
+    - name: 📂FILES
+      uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+      with:
+        server: ${{ secrets.HOST_HML }}
+        username:  ${{ secrets.USER_HML }}
+        password: ${{ secrets.PASSWORD_HML }}
+        
+        ssh_private_key: ${{ secrets.SSH_HML }}
+        sftp_only: true  
+        local_path: './*'
+        remote_path: '/root/teste'
+        sftpArgs: '-o ConnectTimeout=20'
+
+  
