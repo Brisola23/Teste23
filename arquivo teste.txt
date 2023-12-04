@@ -1,7 +1,17 @@
-<<<<<<< HEAD
+
+
 Texto a ser inserido na branch developer
-=======
+
 Texto a ser inserido na branch developer
 
 Loren ipsulum 2
->>>>>>> feature
+
+
+Texto a ser inserido na branch developer
+
+Loren ipsulum 2
+
+Outra alteração de texto
+
+Nova alteração
+
