@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Texto adicionado para a branch feature
+=======
+Texto a ser inserido na branch developer
+>>>>>>> feature
